@@ -7,20 +7,20 @@
         gap: 40px;
     }
     
-    &--frontend{
-        background-image: linear-gradient(180deg, variables.$blue1, variables.$blue2);
+    &--buffet{
+        background-image: linear-gradient(180deg, variables.$pink, variables.$purple);
     }
 
-    &--backend{
-        background-image: linear-gradient(180deg, variables.$blue2, variables.$red);
+    &--lanches{
+        background-image: linear-gradient(180deg, variables.$purple, variables.$yellow);
     }
 
-    &--uxui{
-        background-image: linear-gradient(180deg, variables.$red, variables.$yellow);
-    }
-
-    &--datascience{
+    &--brincadeiras{
         background-image: linear-gradient(180deg, variables.$yellow, variables.$red);
+    }
+
+    &--atracoes{
+        background-image: linear-gradient(180deg, variables.$red, variables.$pink);
     }
 
     &--right{

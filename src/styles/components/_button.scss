@@ -10,7 +10,7 @@
 
     &--primary{
         color: variables.$textColor1;
-        background-color: variables.$buttonColor;
+        background-image: linear-gradient(90deg, variables.$buttonColor1, variables.$buttonColor2);
     }
 
     @media (max-width: 640px){
